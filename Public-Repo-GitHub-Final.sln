@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.002.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Final-Public-Dotnet-Webservice", "Final-Public-Dotnet-Webservice", "{35A2F825-8C6F-4214-B0A2-D61169F90B3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AppCode", "AppCode", "{7AC14E3B-4405-4E37-927F-948B1AB58068}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureDotNetMVCapp", "Final-Public-Dotnet-Webservice\AppCode\AzureDotNetMVCapp\AzureDotNetMVCapp.csproj", "{C39B65D0-42C9-41D5-B9BE-CA6619992EE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C39B65D0-42C9-41D5-B9BE-CA6619992EE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C39B65D0-42C9-41D5-B9BE-CA6619992EE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C39B65D0-42C9-41D5-B9BE-CA6619992EE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C39B65D0-42C9-41D5-B9BE-CA6619992EE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{7AC14E3B-4405-4E37-927F-948B1AB58068} = {35A2F825-8C6F-4214-B0A2-D61169F90B3F}
+		{C39B65D0-42C9-41D5-B9BE-CA6619992EE3} = {7AC14E3B-4405-4E37-927F-948B1AB58068}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C45BD4A3-9C4B-452F-9E81-2F20A15D5F1D}
+	EndGlobalSection
+EndGlobal
